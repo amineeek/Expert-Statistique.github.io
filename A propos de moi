@@ -1,0 +1,12 @@
+<section id="apropos" class="apropos-section">
+    <h2>À propos de moi</h2>
+    <div class="apropos-content">
+        <img src="votre_photo.jpg" alt="Photo de moi" class="apropos-photo">
+        <p>
+            Bienvenue sur mon site de consultation statistique ! Avec plus de 7 ans d'expérience en tant que statisticien, j'ai travaillé sur divers projets d'études, accompagné des étudiants universitaires, des élèves ingénieurs, des chercheurs, ainsi que des professionnels de secteurs variés. Grâce à mon expertise, de nombreux clients ont pu atteindre leurs objectifs et mener à bien leurs projets. 
+        </p>
+        <p>
+            Mon objectif est de fournir un service personnalisé d'analyse de données, de formation et de conseil, adapté à chaque besoin. Que vous soyez étudiant en quête de soutien pour votre projet d'études ou professionnel nécessitant une analyse de données avancée, je suis là pour vous accompagner. Contactez-moi pour en savoir plus sur la manière dont je peux vous aider à réaliser vos objectifs !
+        </p>
+    </div>
+</section>
