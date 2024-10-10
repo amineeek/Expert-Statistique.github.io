@@ -30,9 +30,9 @@ header {
 }
 
 .logo {
-    width: 80px;
+    width: 80px; /* Taille augmentée du logo */
     height: 80px;
-    border-radius: 50%;
+    border-radius: 50%; /* Arrondit le logo */
 }
 
 header h1 {
