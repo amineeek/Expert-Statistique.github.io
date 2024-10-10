@@ -10,7 +10,7 @@
     <!-- Header avec navigation -->
     <header>
         <h1>Consultation Statistique</h1>
-        <nav>
+        <nav aria-label="Navigation principale">
             <ul>
                 <li><a href="#accueil">Accueil</a></li>
                 <li><a href="#apropos">À propos de moi</a></li>
@@ -20,39 +20,63 @@
             </ul>
         </nav>
     </header>
+
     <!-- Sections du site -->
-    <section id="accueil">
-        <h2>Bienvenue sur notre site</h2>
-        <p>Nous vous offrons une expertise statistique pour tous vos projets de recherche et d'analyse.</p>
-        <a href="#contact" class="cta-button">Demander une consultation</a>
-    </section>
-    <section id="apropos">
-        <h2>À propos de moi</h2>
-        <p>Avec plus de 7 ans d'expérience...</p>
-    </section>
-    <section id="services">
-        <h2>Nos Services</h2>
-        <!-- Liste des services -->
-    </section>
-    <section id="etudes">
-        <h2>Études de Cas</h2>
-        <!-- Exemples de projets -->
-    </section>
-    <section id="contact">
-        <h2>Contactez-moi</h2>
-        <form id="contact-form">
-            <label for="nom">Nom :</label>
-            <input type="text" id="nom" name="nom" required>
-            <label for="email">Email :</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message :</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Envoyer</button>
-        </form>
-    </section>
+    <main>
+        <!-- Section Accueil -->
+        <section id="accueil" class="section accueil">
+            <h2>Bienvenue sur notre site</h2>
+            <p>Nous vous offrons une expertise statistique pour tous vos projets de recherche et d'analyse.</p>
+            <a href="#contact" class="cta-button" aria-label="Demander une consultation">Demander une consultation</a>
+        </section>
+
+        <!-- Section À propos de moi -->
+        <section id="apropos" class="section apropos">
+            <h2>À propos de moi</h2>
+            <p>Avec plus de 7 ans d'expérience dans l'analyse statistique, je propose un accompagnement personnalisé pour répondre à vos besoins spécifiques.</p>
+        </section>
+
+        <!-- Section Services -->
+        <section id="services" class="section services">
+            <h2>Nos Services</h2>
+            <ul>
+                <li>Analyse de données pour la recherche</li>
+                <li>Formation en statistiques pour étudiants et professionnels</li>
+                <li>Conseil en interprétation de résultats statistiques</li>
+            </ul>
+        </section>
+
+        <!-- Section Études de Cas -->
+        <section id="etudes" class="section etudes">
+            <h2>Études de Cas</h2>
+            <p>Découvrez comment nous avons aidé nos clients à réaliser des analyses de données précises et adaptées à leurs besoins.</p>
+            <!-- Ajoutez ici des études de cas sous forme de cartes ou de paragraphes -->
+        </section>
+
+        <!-- Section Contact -->
+        <section id="contact" class="section contact">
+            <h2>Contactez-moi</h2>
+            <form id="contact-form" aria-label="Formulaire de contact">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Consultation Statistique</p>
+        <p>&copy; 2024 Consultation Statistique. Tous droits réservés.</p>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
+
