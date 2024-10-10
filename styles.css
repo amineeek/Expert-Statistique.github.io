@@ -96,9 +96,9 @@ footer p {
 }
 
 .logo {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%; /* Arrondit le logo si besoin */
+    width: 70px;
+    height: 70px;
+    border-radius: 70%; /* Arrondit le logo si besoin */
 }
 
 header h1 {
