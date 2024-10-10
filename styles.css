@@ -1,31 +1,43 @@
-/* Conteneur du logo et du titre */
-.logo-container {
+/* Style de base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4CAF50;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* En-tête */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 2em;
+}
+
+/* Conteneur du logo et du titre */
+.logo-container {
+    display: flex;
+    align-items: center;
     gap: 15px;
 }
 
 .logo {
-    width: 80px; /* Augmentez la taille du logo */
+    width: 80px; /* Taille augmentée du logo */
     height: 80px;
+    border-radius: 50%; /* Arrondit le logo */
 }
 
-/* Styles de l'en-tête */
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #333;
-    padding: 1em 2em;
-    color: white;
-}
-
-/* Titre de l'en-tête */
 header h1 {
-    font-size: 1.8em;
     margin: 0;
+    font-size: 1.8em;
     color: white;
 }
 
@@ -33,13 +45,9 @@ header h1 {
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 0;
     display: flex;
     gap: 20px;
-}
-
-nav ul li {
-    display: inline;
+    margin: 0;
 }
 
 nav ul li a {
@@ -51,4 +59,45 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #4CAF50;
+}
+
+/* Sections */
+.section {
+    padding: 2em;
+    margin: 1em auto;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Bouton d'appel à l'action */
+.cta-button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.75em 1.5em;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 1em;
+}
+
+.cta-button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: white;
+    margin-top: 2em;
+}
+
+footer p {
+    margin: 0;
 }
